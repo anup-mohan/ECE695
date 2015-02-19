@@ -17,7 +17,7 @@ public class imgRetrieval{
 	
 	
 	public static void match(){
-	String _descDir = Environment.getExternalStorageDirectory() + "/Descriptors_320x240";
+	String _descDir = Environment.getExternalStorageDirectory() + "/Descriptors_640x480";
 	String _outPath = Environment.getExternalStorageDirectory() + "/Results";
 	String _queryImg = MainActivity._imgpath;
 	
