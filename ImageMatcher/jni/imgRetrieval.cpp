@@ -110,7 +110,7 @@ int findMatches(const string &imgName, const string &descriptorDir, const string
 	string path;
 
 	// Resize the image to 320x240
-	resize(image, image, Size(320,240));
+	resize(image, image, Size(640,480));
 
 	//Find descriptors
 	detector->detect(image,keypoints);
